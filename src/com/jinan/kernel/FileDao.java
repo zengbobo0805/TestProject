@@ -30,6 +30,9 @@ public class FileDao {
 		} finally {
 			try {
 				fos.close();
+				
+				
+				
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
